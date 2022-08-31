@@ -1,0 +1,15 @@
+.header{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: rgba(33, 147, 160, 0.048);
+    font-size: 20px;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+.link:global(.active) {
+    color: blue;
+}
